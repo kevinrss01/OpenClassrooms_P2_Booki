@@ -1,0 +1,173 @@
+
+    header{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    }
+
+    .logo{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main{
+        margin-left: 1px;
+    }
+
+    header img{
+        margin: 0%;
+        height: 50px;
+    }
+  
+    header li a:hover{
+        border-bottom: #0065fc 3px solid;
+        border-top: 0px red solid;
+    }
+
+    header li a{
+    padding: 60px 0px 10px 0px;
+    width: 100%;
+    border-bottom: #f2f2f2 solid 3px;
+    }
+
+    header ul{
+        width: 100%;
+        margin: 0%;
+        padding: 0%
+    }
+
+    header li{
+        width: 50%
+    }
+
+    
+    .h1{
+        line-height: 20px;
+        margin: 0%;
+    }
+
+
+    .Btn_recherche{
+        display: none;
+    }          
+    
+    .btn_mobile{
+        height: 50px;
+        width: 50px;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .bordureSearch{
+        width: 330px;
+    }
+
+    #filtres h3{
+        padding-right: 2000px;
+    }
+
+    .filtre_1,.filtre_2, .filtre_3, .filtre_4{
+        margin-top: 10px;
+        margin-right: 5px;
+    }
+
+    #Les_plus_populaires{
+        margin: 0%;
+        padding-left: 5%;
+        border-radius: 0px;
+        width: 100%;
+    }
+
+    #Hebergements_Marseille{
+        height: auto;
+        width: auto;
+        background-color: white;
+        border-radius: 0px;
+        padding-top: 30px;
+    }
+
+    .Style_card_populaires{
+        width: 95%;
+    }
+
+    #Hebergements_Marseille h3, #Hebergements_Marseille p{
+        margin-left: 10px;
+        padding-left: 0%;
+    }
+
+    .Style_card_herbergements{
+        width: 95%;
+        background-color: white;
+        margin: 5% 0% 0% 0%;
+    }
+
+    .bloc_cards_hebergements{
+        display: flex;
+        justify-content: center;
+    }
+
+    .image_card_hebergements{
+        width: 100%;
+    }
+
+    .image_card_hebergements img{
+        width: 98%;
+    }
+
+    #Activites_Marseille{
+        margin-top: 0%;
+    }
+
+    #Activites_Marseille h3{
+        padding-left: 10px;
+    }
+
+   .Bloc_Cards_activites{
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+   }
+
+   .cards_activites{
+       margin: 0% 0% 5% 0%;
+       height: 190px;
+       margin: 5% 0% 0% 0%;
+       width: 95%;
+   }
+
+   .Bloc_Cards_activites img{
+       height: 130px;
+       width: 100%;
+   }
+
+   .bloc_bis{
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+   }
+
+   .padding_top{
+    padding-top: 15px;
+   }
+
+   footer{
+       display: flex;
+       flex-direction: column;
+       background-color: #f2f2f2;
+       max-width: 100%;
+       margin: 10% 0% 0% 0%;
+       padding: 0% 0% 0% 5%;
+    }
+
+    footer ul{
+        padding: 0%;
+    }
+
+
